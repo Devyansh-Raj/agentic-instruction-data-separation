@@ -1,0 +1,409 @@
+{
+  "model_id": "qwen2.5:14b",
+  "n_examples": 50,
+  "errors": 50,
+  "failures": 0,
+  "sfr": 0.0,
+  "results": [
+    {
+      "example_id": 1824,
+      "category": "Case Fact Summary",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 409,
+      "category": "Artistic Entities Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 4506,
+      "category": "Temporal Entities Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 4012,
+      "category": "Argument Strength Assessment",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3657,
+      "category": "Dialogue Interpretation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 2286,
+      "category": "Emotion Detection",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1679,
+      "category": "Co-occurrence Keyword Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 8935,
+      "category": "Direct Answer Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1424,
+      "category": "Health Risk Assessment",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 6912,
+      "category": "Nutritional Information Analysis",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 520,
+      "category": "Historical Theme Exploration",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 488,
+      "category": "Narrative Style Assessment",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1535,
+      "category": "User Interface Development",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3582,
+      "category": "Solution Checking",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3811,
+      "category": "Contextual Customization",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 8279,
+      "category": "Sensory Experience Design",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 434,
+      "category": "Anomaly Detection",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3257,
+      "category": "Performance Improvement Strategies",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 8928,
+      "category": "Color Palette Development",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 6873,
+      "category": "Product Entities Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3611,
+      "category": "Legal Precedent Identification",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 7359,
+      "category": "Cooking Technique Explanation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 4557,
+      "category": "Risk Management Overview",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 106,
+      "category": "Legal Risk Assessment",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 2615,
+      "category": "Situational Comedy Setup",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 6924,
+      "category": "Cultural Contextualization",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 5574,
+      "category": "Modal Auxiliary Verb Tagging",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 4552,
+      "category": "Morphological Analysis",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 2547,
+      "category": "Stylistic Analysis",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3527,
+      "category": "Social Engineering Recognition",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 5514,
+      "category": "Poetic Translation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1674,
+      "category": "Subjective Summarization",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1519,
+      "category": "Frequency-Based Keyword Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 6224,
+      "category": "Compliance Check",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1584,
+      "category": "Subjectivity/Objectivity Identification",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 5881,
+      "category": "Adjective Identification",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 5635,
+      "category": "Symptom Interpretation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 4333,
+      "category": "Surgical Procedure Analysis",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 711,
+      "category": "Interactive Explanation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 7527,
+      "category": "Intensity Scoring",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 8785,
+      "category": "Supply Chain Analysis",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 2045,
+      "category": "Equipment and Material Sourcing",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 6201,
+      "category": "Operational Efficiency Review",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1291,
+      "category": "Code Style Compliance",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 9044,
+      "category": "Topical Jokes Formulation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 4803,
+      "category": "Genre Fusion",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 5925,
+      "category": "Performance Improvement Strategies",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 3150,
+      "category": "Relationship Extraction",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 1139,
+      "category": "Dynamic Equivalence Translation",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    },
+    {
+      "example_id": 750,
+      "category": "Skill Progression Planning",
+      "eval": {
+        "error": "Request timed out.",
+        "is_failure": false
+      }
+    }
+  ]
+}
