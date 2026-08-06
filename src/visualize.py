@@ -53,8 +53,8 @@ def generate_visualizations(results_dir: str = "results/raw", output_dir: str = 
                    fontsize=11, fontweight='bold')
                    
     plt.tight_layout()
-    plt.savefig(f"{output_dir}/sfr_comparison.png", dpi=300)
-    print(f"Saved {output_dir}/sfr_comparison.png")
+    plt.savefig(f"{output_dir}/sfr_results.png", dpi=300)
+    print(f"Saved {output_dir}/sfr_results.png")
 
 if __name__ == "__main__":
     generate_visualizations()

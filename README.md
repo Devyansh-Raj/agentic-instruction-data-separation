@@ -4,15 +4,13 @@
 [![Dataset](https://img.shields.io/badge/Dataset-SEP-yellow)](https://github.com/egozverev/Should-It-Be-Executed-Or-Processed)
 
 ## Overview
-This repository provides a rigorous benchmark for evaluating **Instruction-Data Separation** (IDS) within Agentic Workflows. Using LangGraph, it constructs a multi-tool agent environment and evaluates LLMs' vulnerability to indirect prompt injections (where malicious commands are hidden inside passive data).
-
-The benchmarking pipeline leverages the **SEP Dataset** introduced in the ICLR 2025 paper:
+This repository implements a benchmark that evaluates the Qwen2.5-3B model's susceptibility to indirect prompt injection in a multi-tool agentic setup. It builds upon the **SEP (Should-It-Be-Executed-Or-Processed)** framework introduced in the 2025 paper:
 > *"Can LLMs Separate Instructions From Data? And What Do We Even Mean By That?"* (Zverev, Abdelnabi, Tabesh, Fritz, Lampert).
 
 ## Key Findings
 Our benchmark tests if modern open-weight LLMs (e.g., Qwen2.5-3B) correctly treat retrieved information as passive data, or if they accidentally execute malicious probes embedded within it.
 
-*(See `results/figures/sfr_comparison.png` for generated visualizations)*
+*(See `results/figures/sfr_results.png` for generated visualizations)*
 
 ## Architecture
 The testing environment is built with **LangGraph** and features a standard ReAct loop with two tools:
@@ -29,6 +27,6 @@ Specifically, we plan to test if the **ASIDE architecture** (Architectural Separ
 ## Setup
 ```bash
 pip install -r requirements.txt
-python -m src.benchmark --model all --n 500
+python -m src.benchmark --models qwen-3b --n 50
 python -m src.visualize
 ```
