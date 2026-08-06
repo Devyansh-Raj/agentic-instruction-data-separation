@@ -68,8 +68,8 @@ async def run_benchmark(model_id: str, n_examples: int = 50, dataset_path: str =
     errors = len(results) - len(successful_results)
     
     if successful_results:
-        sfr = failures / len(successful_results)
-        sfr_display = f"{sfr*100:.2f}%"
+        sfr = (failures / len(successful_results)) * 100
+        sfr_display = f"{sfr:.2f}%"
     else:
         sfr = None
         sfr_display = "N/A"
